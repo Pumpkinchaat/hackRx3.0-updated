@@ -2,6 +2,9 @@
 
 MedReviews is a one-stop medical knowledge solution. More than 8 top websites power our medical knowledge, and our knowledge / data-gathering processes are completely autonomous.
 
+#### Backend Hosted URL (Susmit Singh): https://medreviewsbackend.herokuapp.com/
+#### Backend Postman Documentation (Susmit Singh): https://documenter.getpostman.com/view/15733171/UzJPMatY
+
 
 ## Folder Definition
 
@@ -22,7 +25,22 @@ They are:
 
 7. **SentimentalEngineRunner** - This automates and periodically runs the sentimental engine on the SUPPORTING DB, and manages the flow.
 
-8. **WebApp** - This is also ANOTHER EXTREMELY IMPORTANT folder. This contains the backend (MongoDB, NodeJS, Express) as well as the Frontend (EJS) to provide an interface for our application.
+8. **Backend** - This is also ANOTHER EXTREMELY IMPORTANT folder. This contains the backend (MongoDB, NodeJS, Express) of the application. The Backend is a RESTful API backend.
+
+## Contributions
+Following are the contributions:
+
+ #### SUSMIT SINGH
+---->correction code
+---->data divider
+---->geocoder
+---->hospital scraped
+---->SentimentalEngineRunner
+---->Backend
+---->GeoJSONGenerator
+
+#### VINJAMURI MANOJNA
+---->Sentimental Analysis_Reviews
 
 ## Usage
 Follow these steps: 
@@ -45,8 +63,8 @@ SECRET=<secret used for encryption and decryption>
 
 STEP4: Just type in the following command and enjoy!!!!! <3
 ```
-cd webapp
-node app.js
+cd backend
+npm run start
 ```
 
 ## WARNING 🔥🔥🔥
