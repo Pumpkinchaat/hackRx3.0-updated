@@ -1,0 +1,19 @@
+{
+  "name": "hosscraper",
+  "version": "1.0.0",
+  "description": "This is a hospital scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team Sumo",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.4.0",
+    "puppeteer": "^14.4.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
