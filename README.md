@@ -31,16 +31,16 @@ They are:
 Following are the contributions:
 
  #### SUSMIT SINGH
----->correction code
----->data divider
----->geocoder
----->hospital scraped
----->SentimentalEngineRunner
----->Backend
----->GeoJSONGenerator
+1. correction code
+2. data divider
+3. geocoder
+4. hospital scraped
+5. SentimentalEngineRunner
+6. Backend
+7.GeoJSONGenerator
 
 #### VINJAMURI MANOJNA
----->Sentimental Analysis_Reviews
+1. Sentimental Analysis_Reviews
 
 ## Usage
 Follow these steps: 
